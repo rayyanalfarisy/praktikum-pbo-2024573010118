@@ -49,8 +49,10 @@ hasilnya:
 ![](gambar/hasil3.png)
 
 ## 4. Laporan Proses Pembuatan Program Data Diri Dengan Java
-Untuk menampilkan teks ke layar, digunakan perintah System.out.println(). Program data diri merupakan contoh sederhana pemanfaatan sintaks Java untuk mencetak informasi pribadi.pertama buat packcage bernama Datadiri lalu buat file class kemudian ketik kode berikut:
+Untuk menampilkan teks ke layar, digunakan perintah System.out.println(). Program data diri merupakan contoh sederhana pemanfaatan sintaks Java untuk mencetak informasi pribadi.pertama buat packcage bernama Datadiri lalu buat file class kemudian ketik 
+kode berikut:
 ![](gambar/gambar2.png)
+
 hasilnya:
 ![](gambar/hasil2.png)
 
