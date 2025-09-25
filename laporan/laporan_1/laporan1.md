@@ -82,5 +82,6 @@ git push
 Mohd Rzu – Modul Praktikum Pemrograman Berorientasi Objek Java (HackMD)
 https://hackmd.io/@mohdrzu/ByrYifVFeg
 JetBrains – IntelliJ IDEA Community Edition Guide
-https://www.jetbrains.com/idea/ 
+https://www.jetbrains.com/idea/
+W3Schools. https://www.w3schools.com/java/
 ---
