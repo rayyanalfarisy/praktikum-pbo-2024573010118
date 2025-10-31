@@ -38,18 +38,18 @@ Jalankan program menggunakan compiler Java.
 #### Dasar Teori
 Array dua dimensi merupakan bentuk lanjutan dari array satu dimensi yang digunakan untuk menyimpan data dalam format baris dan kolom, menyerupai struktur tabel atau matriks. Dalam bahasa pemrograman Java, array dua dimensi sering disebut sebagai array dari array (array of arrays), karena secara teknis merupakan kumpulan dari beberapa array satu dimensi yang disusun berurutan.Deklarasi array dua dimensi di Java dilakukan dengan menambahkan dua pasang tanda kurung siku [][].Array dua dimensi juga dapat digunakan untuk melakukan berbagai operasi perhitunganseperti mencari rata-rata nilai, menentukan elemen maksimum atau minimum per baris maupun per kolom, dan mengelompokkan data dalam bentuk matriks
 #### Langkah Praktikum
-1.Membuat Package dan Kelas
+1. Membuat Package dan Kelas
 Buat package bernama modul3, lalu buat file baru bernama ArrayDuaDimensi.java.
-2.Mengimpor Library Scanner
-3.Mendeklarasikan Array dan Variabel yang Diperlukan
-4.Menginput Data Siswa dan Nilai
+2. Mengimpor Library Scanner
+3. Mendeklarasikan Array dan Variabel yang Diperlukan
+4. Menginput Data Siswa dan Nilai
 Gunakan objek Scanner untuk menerima input nama siswa dan nilai mereka.
 Input dilakukan dengan dua perulangan bersarang: perulangan luar untuk siswa dan perulangan dalam untuk mata pelajaran.
-5.Menampilkan Data dalam Bentuk Tabel
+5. Menampilkan Data dalam Bentuk Tabel
 Setelah semua data diinput, program akan mencetak tabel nilai siswa lengkap dengan rata-rata nilainya
-6.Menghitung dan Menampilkan Rata-Rata Nilai
+6. Menghitung dan Menampilkan Rata-Rata Nilai
 Untuk setiap siswa, program menghitung total nilai empat mata pelajaran, kemudian membaginya dengan 4 untuk mendapatkan rata-rata.
-7.Menjalankan Program dan Mengamati Output
+7. Menjalankan Program dan Mengamati Output
 Jalankan program di terminal atau IDE Java
 
 #### Screenshoot Hasil
@@ -72,27 +72,27 @@ Secara umum, terdapat dua jenis method di Java, yaitu method void dan method non
 
 Selanjutnya, dalam konteks pengolahan data, Java memungkinkan penggunaan method yang berhubungan dengan array atau sering disebut method array. Method array digunakan untuk memproses, menghitung, atau menampilkan elemen-elemen dalam array. Dengan membuat method khusus yang menangani array, program menjadi lebih modular dan mudah dikembangkanSecara konseptual, penggunaan method dalam array mencerminkan prinsip reusability (kode dapat digunakan kembali) dan encapsulation (kode dibatasi dalam fungsi tertentu). Dengan menggabungkan array dan method, pemrogram dapat membuat sistem pengolahan data yang kompleks dengan cara yang sederhana dan efisien.
 #### 2.1 Langkah Praktikum 
-1.Membuat Package dan Kelas
+1. Membuat Package dan Kelas
 Buat sebuah package bernama modul_3, kemudian buat file baru bernama MethodDasar.java.
-2.Membuat Method Void Tanpa Parameter
+2. Membuat Method Void Tanpa Parameter
 Buat method tampilkanHeader() yang menampilkan judul program kalkulator sederhana di layar.
 Method ini tidak memiliki parameter dan tidak mengembalikan nilai (void).
-3.Membuat Method Void dengan Parameter
+3. Membuat Method Void dengan Parameter
 Buat method tampilkanHasil(String operasi, double a, double b, double hasil)
 untuk menampilkan hasil operasi matematika dengan format yang rapi menggunakan printf().
 Method ini menerima empat parameter yang digunakan untuk menampilkan jenis operasi dan hasil perhitungannya.
-4.Membuat Method dengan Return Value (Nilai Kembalian)
+4. Membuat Method dengan Return Value (Nilai Kembalian)
 Buat empat method berbeda untuk melakukan operasi aritmatika dasar: penjumlahan, pengurangan, perkalian, dan pembagian.
 Masing-masing method menerima dua parameter bertipe double dan mengembalikan hasil perhitungan.
-5.Membuat Method untuk Validasi Input
+5. Membuat Method untuk Validasi Input
 Tambahkan method validasiAngka(double angka) untuk memastikan nilai yang dimasukkan valid
 (tidak bernilai NaN atau tidak terhingga).
 Method ini mengembalikan nilai true jika data valid, dan false jika tidak.
-6.Memanggil Semua Method di Fungsi main()
+6. Memanggil Semua Method di Fungsi main()
 Dalam method main(), deklarasikan dua buah variabel x dan y bertipe double untuk menampung dua nilai yang akan dihitung.
 Panggil tampilkanHeader() untuk menampilkan judul program, kemudian lakukan validasi menggunakan validasiAngka().
 Jika valid, lakukan operasi aritmatika dengan memanggil method tambah(), kurang(), kali(), dan bagi(), lalu tampilkan hasilnya menggunakan tampilkanHasil().
-7.Menjalankan Program dan Mengamati Hasil
+7. Menjalankan Program dan Mengamati Hasil
 Jalankan program di terminal atau IDE
 #### Screenshoot Hasil
 ![](gambar/method1.png)
@@ -110,9 +110,9 @@ Impor kelas Scanner dari pustaka java.util untuk memungkinkan pengguna memasukka
    Buat method tampilkanArray() untuk mencetak seluruh isi array dalam format [elemen1, elemen2, ...].
    Method ini tidak mengembalikan nilai (void)
 5. Membuat Method untuk Mencari Nilai Maksimum dan Minimum
-Method cariMaksimum() mencari nilai terbesar dalam array.
-Method cariMinimum() mencari nilai terkecil dalam array.
-Keduanya menggunakan perulangan for untuk membandingkan elemen satu per satu.
+   Method cariMaksimum() mencari nilai terbesar dalam array.
+   Method cariMinimum() mencari nilai terkecil dalam array.
+   Keduanya menggunakan perulangan for untuk membandingkan elemen satu per satu.
 6. Membuat Method untuk Menghitung Rata-Rata
    Buat method hitungRataRata() yang menghitung jumlah seluruh elemen array dan membaginya dengan panjang array (array.length
 7. Membuat Method untuk Mengurutkan Array (Bubble Sort)

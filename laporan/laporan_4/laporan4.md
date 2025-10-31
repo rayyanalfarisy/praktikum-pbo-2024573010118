@@ -1,4 +1,4 @@
-# Laporan Modul 2: Dasar Pemrograman Java
+# Laporan Modul 2: Pengenalan Object Oriented Programming
 **Mata Kuliah:** Praktikum Pemrograman Berorientasi Objek   
 **Nama:** MUHAMMAD RAYYAN ALFARISY
 **NIM:** 2024573010118
@@ -72,7 +72,8 @@ Dengan menggunakan konsep class dan object, program dapat dibuat lebih terstrukt
 6. Digunakan oleh class lain (misalnya KartuRencanaStudi) dalam sistem KRS untuk merepresentasikan data setiap mata kuliah.
 
 #### Screenshoot Hasil
-![](gambar/pj1.png)
+![](gambar/matakuliah1.png)
+![](gambar/matakuliah3.png)
 
 #### 2.3 Langkah Praktikum
 1. Menentukan package program.
@@ -191,5 +192,13 @@ Setelah keluar, objek Scanner ditutup dengan input.close() untuk mengakhiri pros
 ![](gambar/main4.png)
 ![](gambar/main5.png)
 ## 5. Referensi
+Dicoding – Apa itu OOP pada Java? Beserta Contohnya
+https://www.dicoding.com/blog/apa-itu-oop-pada-java-beserta-contohnya/
+
+Jagoan Hosting – Pengertian OOP (Object Oriented Programming) dan 4 Prinsipnya
+https://www.jagoanhosting.com/blog/oop-adalah/
+
+Petani Kode – Pengenalan Pemrograman Berorientasi Objek di Python
+https://www.petanikode.com/python-oop-pengenalan/
 
 
