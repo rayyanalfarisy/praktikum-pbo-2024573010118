@@ -1,4 +1,4 @@
-# Laporan Modul 5: Polymorphism
+# Laporan Modul 7: Polymorphism
 **Mata Kuliah:** Praktikum Pemrograman Berorientasi Objek   
 **Nama:** MUHAMMAD RAYYAN ALFARISY
 **NIM:** 2024573010118
