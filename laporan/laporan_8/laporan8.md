@@ -509,7 +509,7 @@ Letakkan dalam package:
 modul_8.praktikum_3
 
 
-2. Buat field private
+2. Buat field privat
 Ini untuk menyembunyikan data (encapsulation):
 
 accountNumber
