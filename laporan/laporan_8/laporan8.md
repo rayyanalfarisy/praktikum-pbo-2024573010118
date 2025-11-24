@@ -53,7 +53,7 @@ calculatePerimeter()
 
 8. Simpan file, dan class Shape siap digunakan sebagai kelas induk bagi bentuk lain seperti Circle atau Rectangle.
 #### Screenshoot Hasil
-
+![prak1Shape.jpg](gambar/prak1Shape.jpg)
 #### 1.2 Langkah Praktikum
 1. Buat class Circle di dalam package modul_8.praktikum_1.
 
@@ -95,7 +95,7 @@ getDiameter() → mengembalikan diameter lingkaran.
 
 8. Simpan file dan pastikan tidak ada error.
 #### Screenshoot Hasil
-
+![prak1Circle.jpg](gambar/prak1Circle.jpg)
 #### 1.3 Langkah Praktikum
 1. Buat class Rectangle dalam package modul_8.praktikum_1.
 
@@ -141,7 +141,7 @@ isSquare() → mengecek apakah width == height.
 
 8. Simpan file dan pastikan tidak ada error.
 #### Screenshoot Hasil
-
+![prak1Retacle.jpg](gambar/prak1Retacle.jpg)
 #### 1.4 Langkah Praktikum
 1. Buat class AbstractClassTest dalam package modul_8.praktikum_1.
 
@@ -190,7 +190,7 @@ sambil menjumlahkan total luas ke variabel totalArea.
 11. Terakhir, tampilkan:
 "Total Area of All Shapes: " + totalArea.
 #### Screenshoot Hasil
-
+![prak1Test.jpg](gambar/prak1Test.jpg)
 ### Praktikum 2 Memahami Interface
 #### Dasar Teori
 Interface adalah bentuk abstraksi murni yang hanya berisi deklarasi method tanpa implementasi (kecuali default/static method). Interface digunakan untuk mendefinisikan kontrak yang wajib diikuti oleh class yang mengimplementasikannya.
@@ -250,6 +250,7 @@ Contohnya nanti kamu bikin class Car, ElectricCar yang pakai interface ini.
 
 
 #### Screenshoot Hasil
+![prak2Vehicle.jpg](gambar/prak2Vehicle.jpg)
 #### 2.2 Langkah Praktikum
 1. Buat package
 
@@ -288,7 +289,7 @@ Buat objek class yang mengimplementasikan Electric.
 
 Panggil setBatteryInfo(), displayBatteryInfo(), charge(), dll.
 #### Screenshoot Hasil
-
+![prak2Electric.jpg](gambar/prak2Electric.jpg)
 #### 2.3 Langkah Praktikum
 1. Buat package
 
@@ -375,7 +376,7 @@ brake()
 
 stop()
 #### Screenshoot Hasil
-
+![prak2Car.jpg](gambar/prak2Car.jpg)
 #### 2.4 Langkah Praktikum
 1. Buat class ElectricCar di package:
 
@@ -431,7 +432,7 @@ setBatteryInfo(level) → mengubah level baterai
 
 8. Gunakan di main untuk mencoba fungsi-fungsinya.
 #### Screenshoot Hasil
-
+![prak2ElectricCar.jpg](gambar/prak2ElectricCar.jpg)
 #### 2.5 Langkah Praktikum
 1. Buat class ElectricCar dan pastikan implements:
 
@@ -488,7 +489,7 @@ Buat objek
 
 Panggil start, accelerate, brake, displayBatteryInfo, charge, dll.
 #### Screenshoot Hasil
-
+![prak2Test.jpg](gambar/prak2Test.jpg)
 ### Praktikum 3 Abstraksi dengan Access Modifiers
 #### Dasar Teori
 Access modifier digunakan untuk mengatur akses terhadap data atau method dalam class. Hal ini berkaitan erat dengan abstraksi karena mencegah pengguna melihat atau memanipulasi detail internal yang seharusnya tidak diketahui.
@@ -557,7 +558,7 @@ applyInterest(rate) → menambah bunga (untuk subclass)
 
 displayAccountInfo() → menampilkan data akun tanpa password
 #### Screenshoot Hasil
-
+![prak3BankAccount.jpg](gambar/prak3BankAccount.jpg)
 #### 3.2 Langkah Praktikum
 1. Buat class SavingsAccount
 Letakkan di package:
@@ -604,7 +605,7 @@ Jenis akun: Savings
 
 Bunga tahunan
 #### Screenshoot Hasil
-
+![prak3SavingAccount.jpg](gambar/prak3SavingAccount.jpg)
 #### 3.3 Langkah Praktikum
 1. Buat class AbstractionTest
 serta method main() untuk menjalankan program.
@@ -662,7 +663,7 @@ Print info account1
 
 Print info account2
 #### Screenshoot Hasil
-
+![prak3Test.jpg](gambar/prak3Test.jpg)
 ## 3. Kesimpulan
 Pada praktikum ini, kamu mempelajari bagaimana abstraksi, interface, dan access modifier bekerja dalam pemrograman berorientasi objek. Seluruh percobaan menunjukkan bahwa abstraksi itu bukan cuma soal “menyembunyikan detail”, tapi juga membuat kode lebih aman, fleksibel, dan mudah dikembangkan.
 Dari sisi abstract class, kamu belajar bagaimana sebuah kelas induk menyediakan kerangka umum (seperti perhitungan luas atau perimeter), sementara subclass-lah yang mengisi rincian implementasinya. Hal ini terbukti pada Shape, Circle, dan Rectangle yang mampu menunjukkan polymorphism secara nyata.
@@ -670,3 +671,7 @@ Pada bagian interface, kamu melihat bagaimana sebuah class bisa “mengadopsi”
 Di bagian access modifier, kamu belajar bahwa pengaturan akses (private, protected, public) sangat penting untuk menjaga keamanan data. Pada kasus BankAccount, data sensitif seperti password sengaja disembunyikan agar tidak bisa diakses sembarangan. Transaksi hanya bisa dilakukan melalui method yang aman, dan method internal seperti authenticate() atau logTransaction() tetap terlindungi. Sementara subclass seperti SavingsAccount masih dapat memanfaatkan method protected untuk mengelola bunga.
 Secara keseluruhan, praktikum ini menunjukkan bahwa abstraksi membuat program lebih terstruktur, lebih aman, dan lebih mudah dipelihara. Dengan memisahkan “apa yang boleh dilihat” dan “bagaimana cara kerja sebenarnya”, OOP menjadi jauh lebih powerful dan rapi saat digunakan pada sistem nyata seperti sistem bangun ruang, kendaraan, dan simulasi rekening bank.
 ## 4. Referensi
+Petani Kode – Tutorial Java OOP: Abstraksi
+https://www.petanikode.com/java-oop-abstraksi/
+Duniailkom – Pemrograman Java OOP (Konsep Abstraksi)
+https://www.duniailkom.com/tutorial-belajar-java-oop-pengertian-kelas-dan-object/
